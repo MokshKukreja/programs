@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-commerce Product Listing</title>
+    <style>
+        /* CSS for product listing */
+        .product {
+            border: 1px solid #eaeaea;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            float: left;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Our Products</h1>
+
+    <!-- Product listing -->
+    <div id="product-list">
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Price: $20</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>Price: $25</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more products here -->
+
+    </div>
+
+    <script>
+        // JavaScript functionality can be added here
+    </script>
+
+</body>
+
+</html>
